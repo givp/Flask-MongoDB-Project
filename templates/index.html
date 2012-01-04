@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<ul>
+{% for pp in p %}
+    <li><a href="{{ url_for('record', id=pp._id) }}">{{ pp.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% endblock %}

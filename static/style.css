@@ -1,0 +1,27 @@
+body {
+    font-family: arial;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #999;
+    text-decoration: none;
+}
+
+.metanav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#main_content {
+    margin: 10px;
+}
+
+.flash {
+    color: red;
+}
