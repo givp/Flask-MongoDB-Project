@@ -4,6 +4,7 @@ Requirements:
 * Python
 * MongoDB
 * Flask Framework http://flask.pocoo.org
+* PyMongo (pip install pymongo==2.8)
 * MongoEngine http://mongoengine.org
 * Flask Bcrypt extension for encrypting your login passwords (pip install flask-bcrypt)
 * Flash CSRF extension for protecting you app against cross-site forgery (pip install flask-csrf)

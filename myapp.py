@@ -1,7 +1,7 @@
 from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
 from models import *
-from flaskext.bcrypt import Bcrypt
-from flaskext.csrf import csrf
+from flask.ext.bcrypt import Bcrypt
+from flask.ext.csrf import csrf
 import logging
 
 app = Flask(__name__)

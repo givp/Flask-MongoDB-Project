@@ -17,6 +17,7 @@ class Post(Document):
     author = ReferenceField(User)
     tags = ListField(StringField(max_length=30))
     comments = ListField(EmbeddedDocumentField(Comment))
+    meta = {'allow_inheritance': True}
 
 class TextPost(Post):
     content = StringField()
